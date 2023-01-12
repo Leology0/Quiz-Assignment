@@ -17,6 +17,8 @@ string answer1 = Console.ReadLine().ToLower();
 if (answer1 == "charmander") {
     score++;
     Console.WriteLine("Correct");
+} else {
+    Console.WriteLine("Incorrect");
 }
 // Question 2
 Console.WriteLine("\n2.How many Pokemon are in the Pokemon Scarlet and Violet Pokedex");
@@ -25,15 +27,19 @@ string answer2 = Console.ReadLine().ToLower();
 if (answer2 == "400") {
     score++;
     Console.WriteLine("Correct");
+} else {
+    Console.WriteLine("Incorrect");
 }
 
 // Question 3
-Console.WriteLine("\n3.In what games were mega evolution for Pokemon introduced");
+Console.WriteLine("\n3.In what game(s) were mega evolution for Pokemon introduced");
 Console.Write("Q3 Answer:");
 string answer3 = Console.ReadLine().ToLower();
-if (answer3 == "pokemon x and y") {
+if (answer3 == "pokemon x" || answer3 == "pokemon y" || answer3 == "pokemon x and y") {
     score++;
     Console.WriteLine("Correct");
+} else {
+    Console.WriteLine("Incorrect");
 }
 
 // Question 4
@@ -43,6 +49,8 @@ string answer4 = Console.ReadLine().ToLower();
 if (answer4 == "pikachu") {
     score++;
     Console.WriteLine("Correct");
+} else {
+    Console.WriteLine("Incorrect");
 }
 
 // Evaluate Score
